@@ -1,5 +1,3 @@
-class Brailcoffee{
-}
 class BrazilCoffee {
     String origin;
     int degreeOfRoast;
