@@ -4,20 +4,20 @@ public class Tem{
   public static void main(String[] args){
     Scanner a = new Scanner(System.in);
     
-    System.out.print("È­¾¾ ¸îµµÀÔ´Ï±î?: ");
+    System.out.print("í™”ì”¨ ëª‡ë„ì…ë‹ˆê¹Œ?: ");
     
     int f = a.nextInt();
     double c = (int)(f-32)*5/9;
-    System.out.println("¿Âµµ = " + c);
+    System.out.println("ì˜¨ë„ = " + c);
     
     
     Scanner b = new Scanner(System.in);
      
-    System.out.print("¼·¾¾ ¸îµµÀÔ´Ï±î?: ");
+    System.out.print("ì„­ì”¨ ëª‡ë„ì…ë‹ˆê¹Œ?: ");
     
     int cc = b.nextInt();
-    double ff = (int)c*1.8+32;
-    System.out.println("¿Âµµ = " + ff);
+    double ff = (int)cc*1.8+32;
+    System.out.println("ì˜¨ë„ = " + ff);
   
   
   
