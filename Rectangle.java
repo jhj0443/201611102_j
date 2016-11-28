@@ -1,17 +1,25 @@
-public class Rectangle {
-    private int width;
-    private int height;
-    public Rectangle(int w, int h) {
+package com.sd.ch8;
+public class Rectangle{
+    protected double length;
+    protected double width;
+    public boolean isSelected;
+public Rectangle(double l, double w) {
+        this.length=l;
         this.width=w;
-        this.height=h;
     }
-    public int getWidth() {
+    public double getLength() {
+        return length;
+    }
+    public double getWidth() {
         return width;
     }
-    public int getHeight() {
-        return height;
+    public void setSelected(boolean b) {
+        isSelected=b;
     }
-    public int calcArea() {
-        return width*height;
-    }
+
+   public boolean getSelected(){
+    return isSelected;
+  }
+
+
 }
